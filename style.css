@@ -1,0 +1,59 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+html, body {
+    padding: 0;
+    margin: 0 10px;
+}
+h2{
+    font-size: 2em;
+}
+.header {
+    background-color: #212121;
+    color: white;
+    text-align: center;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.main{
+    border: 2em solid #212121;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.color-switcher {
+    height: 50%;
+    border: 2px solid #212121;
+    border-collapse: collapse;
+    margin: 1em;
+    cursor: pointer;
+}
+.main > div {
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+}
+#default {
+    background-color: grey;
+}
+#red {
+    background-color: red;
+}
+#yellow {
+    background-color: yellow;
+}
+#blue {
+    background-color: blue;
+}
+#white {
+    background-color: white;
+}
+#blueviolet {
+    background-color: blueviolet;
+}
